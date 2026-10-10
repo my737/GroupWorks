@@ -1,0 +1,182 @@
+#goods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1080px;
+    user-select: none;
+}
+#goods-content{
+    background-color: white;
+    width: 1080px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+#upline{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 25px 20px 20px 20px;
+}
+#upline-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 310px;
+}
+#upline-title{
+    font-size: 22px;
+    font-weight: bold;
+}
+#upline-content{
+    color: darkgray;
+}
+#checkMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 252, 255);
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    border: none;
+    box-shadow: -2px 5px 10px rgb(189, 189, 255);
+}
+
+.goodsCard{
+    margin: 25px 20px 20px 20px;
+    border: 0.5px rgba(211, 211, 211, 0.722) solid;
+    height: 380px;
+    width: 220px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.goodsFace{
+    height: 170px;
+    width: 220px;
+    border-radius: 20px 20px 0 0;
+    background-image: linear-gradient(to right bottom,lightblue,rgb(100, 141, 255));
+}
+.goodsName{
+    font-size: 14px;
+}
+.goodsInfor{
+    height: 210px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.goodsType{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin: 10px;
+}
+.goodsImg{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+.goodsPrice{
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+.priceNow{
+    display: flex;
+    align-items: baseline;
+    margin-right: 10px;
+}
+.number{
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.money{
+    color: red;
+}
+.priceBefore{
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: darkgrey;
+    font-size: 15px;
+}
+.discount{
+    background-color: rgba(255, 166, 0, 0.39);
+    color: rgba(255, 68, 0, 0.521);
+    border-radius: 5px;
+    font-size: 14px;
+    height: 16px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goodsGrade{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    width: 210px;
+}
+.starPoint{
+    color: rgb(255, 102, 0);
+}
+.passSold{
+    color: darkgray;
+}
+.goodsBtn{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.jionShopList{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+.addFavor{
+    border: 0.5px gray solid;
+    color: rgb(105, 105, 105);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+#goods-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.goodsType-hotsell{
+    height: 30px;
+    width: 50px;
+    background-color: coral;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin: 10px;
+}
+.goodsFace-2{
+    height: 170px;
+    width: 220px;
+    border-radius: 20px 20px 0 0;
+    background-image: linear-gradient(to right bottom,rgba(255, 231, 126, 0.923),rgb(250, 102, 83));
+}

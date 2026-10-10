@@ -1,0 +1,236 @@
+#right{
+    width: 100%;
+    border-right: #c7c1c1 0.5px solid;
+}
+#top-guide{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: #dddddd 0.5px solid;
+}
+#topGuide-left{
+    display: flex;
+    justify-content: center;
+}
+#photograph{
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to right bottom,rgb(0, 140, 255),blue);
+}
+#group-member{
+    height: 55px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+#groupName{
+    font-weight: bolder;
+}
+#OnlineStatus{
+    font-size: 12px;
+    color: gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#online{
+    height: 6px;
+    width: 6px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: rgb(0, 156, 0);
+}
+#function-window{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+#function-window img{
+    width: 20px;
+}
+
+
+#topGuide-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+}
+
+#chat-space{
+    background-color: rgb(241, 241, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#chat-space #sendTime{
+    align-items: center;
+}
+#chat-space> div{
+    margin: 10px;
+}
+#sendTime{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#sendTime span{
+    height: 18px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(149, 160, 164, 0.381);
+    color: grey;
+}
+
+.sender-message{
+    display: flex;
+    justify-content: flex-start;
+}
+.sender-photograph{
+    display: inline-block;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom,rgb(0, 208, 255),blue);
+} 
+.sender-messageBox{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0px 10px 10px 10px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.receiver-message{
+    display: flex;
+    justify-content: end;
+}
+.receiver-photograph{
+    display: inline-block;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom,rgb(0, 208, 255),blue);
+} 
+.receiver-messageBox{
+    margin-right: 10px;
+    padding: 10px;
+    background-color: rgb(25, 218, 89);
+    border-radius: 10px 0px 10px 10px;
+    align-items: center;
+    font-size: 14px;
+}
+
+#picture{
+    height: 150px;
+    width: 200px;
+    font-size: 30px;
+    background-image: linear-gradient(to right bottom,#dc62fe,rgb(190, 80, 240));
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wave{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    height: 16px;
+    font-size: 14px;
+    color: #a09a9a;
+}
+.wave i {
+    width: 3px;
+    border-radius: 2px;
+    background: #a09a9a;
+}
+.wave i:nth-child(1) { height: 7px; }
+.wave i:nth-child(2) { height: 15px; }
+.wave i:nth-child(3) { height: 10px; }
+.wave i:nth-child(4) { height: 15px; }
+.wave i:nth-child(5) { height: 7px; }
+.wave i:nth-child(6) { height: 5px; }
+.wave i:nth-child(7) { height: 10px; }
+
+.dot{
+    font-size: 8px;
+    letter-spacing: 5px;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dots :nth-child(1){
+    color: #dddddd;
+}
+.dots :nth-child(2){
+    color: #dbd0d0;
+}
+.dots :nth-child(3){
+    color: #a59c9c;
+}
+#input-branch{
+    background-color: white;
+    padding: 15px;
+}
+#input-branch div{
+    margin-top: 10px;
+}
+#input-function{
+    letter-spacing: 10px;
+}
+#input-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#input-space input{
+    border: none;
+    height: 45px;
+    width: 90%;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 255);
+}
+#sendMessage{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(66, 193, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input-bottom{
+    color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}

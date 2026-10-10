@@ -1,0 +1,17 @@
+#footer-links{
+    min-width: 1080px;
+    color: rgba(158, 158, 158, 0.758);
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#footer-links a,span{
+    margin: 10px;
+}
+#footer-identity{
+    color: rgba(158, 158, 158, 0.807);
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}

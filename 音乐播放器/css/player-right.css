@@ -1,0 +1,206 @@
+/* 右半部分 */
+.big-box-right{
+    width:75%;
+    height:100%;
+    background-color: #0e1016;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+    /* border:1px solid red; */
+}
+.player-page{
+    width:150px;
+    /* border:1px solid red; */
+}
+.player-cover-box{
+    width:150px;
+    height:150px;
+    background-color:#7a62f7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-cover-box1{
+    width:135px;
+    height: 135px;
+    border: 1px dashed gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-cover-box1 img{
+    width:75px;
+    height:75px;
+}
+.song-name2{
+    font-size:20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.song-info1{
+    font-size:12px;
+    color:gray;
+    text-align:center;
+    margin-top: 10px;
+}
+.song-quality-tags{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    font-size:8px;
+}
+.quality-tag1{
+    border:1px solid rgba(128, 128, 128, 0.355);
+    width:35px;
+    height:12px;
+    padding:2px;
+    text-align: center;
+    border-radius: 50px;
+}
+.quality-tag2{
+    border:1px solid rgba(128, 128, 128, 0.355);
+    width:30px;
+    height:12px;
+    padding:2px;
+    text-align: center;
+    border-radius: 50px;
+}
+.quality-tag3{
+    border:1px solid rgba(128, 128, 128, 0.355);
+    width:40px;
+    height:12px;
+    padding:2px;
+    text-align: center;
+    border-radius: 50px;
+}
+/* 进度条 */
+.player{
+    position:relative;
+    top:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border:1px solid red; */
+}
+.player__progress-wrap{
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid red; */
+}
+.player__time-current{
+    color:gray;
+    font-size: 10px;
+    padding-right: 10px;
+}
+.player__progress-bar{
+    width:300px;
+    height: 3px;
+    border-radius: 50px;
+    /* opacity: 50%; */
+    background-color: gray;
+}
+.player__progress-fill{
+    width:200px;
+    height:3px;
+    border-radius: 50px;
+    background-color: rgb(199, 253, 119)
+}
+.player__progress-dot{
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top:-3px;
+    left:195px;
+}
+.player__time-total{
+    color:gray;
+    font-size: 10px;
+    padding-left: 10px;
+}
+/* 按钮控制 */
+.player__control-wrap{
+    width:200px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding-top:10px;
+    padding-bottom: 8px;
+}
+.player__btn-prev img{
+    width:14px;
+    height:14px;
+}
+.player__btn-play{
+    width:50px;
+    height:50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player__btn-play img{
+    width:18px;
+    height:18px;
+}
+.player__btn-next img{
+    width: 14px;
+    height:14px;
+}
+/* 音量 */
+.player__icon-volume{
+    padding-right:10px;
+}
+.player__icon-volume img{
+    width:18px;
+    height:18px;
+}
+.player__volume-wrap{
+    width:350px;
+    height:3px;
+    border-radius: 50px;
+    background-color: gray;
+}
+.player__volume-bar{
+    width:240px;
+    height:3px;
+    border-radius: 50px;
+    background-color: rgb(248, 250, 253);
+}
+.player__volume-dot{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: white;
+    position:relative;
+    top:-3px;
+    left:235px;
+}
+.player__icon-headphone{
+    padding-left:10px;
+}
+.player__icon-headphone img{
+    width:18px;
+    height:18px;
+}
+/* 底部文字 */
+.player__next-tip{
+   font-size:13px;
+   line-height: 35px;
+   color:gray; 
+   text-align: center;
+}

@@ -1,0 +1,220 @@
+html,body {
+    width: 100%;
+    margin: 0px;
+}
+
+.box {
+    display: flex;
+}
+
+.left {
+    width: 300px;
+    /* height: 935px; */
+    border-right: #dddddd 0.5px solid;
+
+}
+
+.left-top{
+    height: 65px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px;
+    margin-left: 10px; */
+    padding: 10px;
+    border-bottom: #dddddd 0.5px solid;
+}
+.left-logo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 65px;
+}
+.left-logo-people{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    margin-top: 5px;
+    background-image: linear-gradient(to right,#34aafd,#247ff9);  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.float-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    color: #adadad;
+}
+.float-right :nth-child(1){
+    font-weight: bolder;
+}
+.float-right :nth-child(2){
+    letter-spacing: -7px;
+    font-size: 15px;
+}
+
+.left-conter{
+    height: 750px;
+}
+/* 搜索框 */
+.one{
+    height: 50px;
+    margin-right: 10px;
+}
+.one input{
+    width: 280px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10PX;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(219, 223, 233);
+}
+.two{
+    height: 60px;
+    /* font-size: 15px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+.two:hover{
+    background-color: rgb(218, 237, 255);
+    border-radius: 10px;
+}
+.left-logo-people-two{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    background-color:  #5768f5;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.split{
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+}
+.color{
+    color: gray;
+    font-size: 12px;
+}
+.left-logo-people-three{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    background-color:#f87c95 ; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+}
+.online-status-three{
+    height: 7px;
+    width: 7px;
+    background-color: rgb(13, 246, 52);
+    border-radius: 100%;
+    border: white 3px solid;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+.number{
+    width: 15px;
+    height: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+}
+.left-logo-people-four{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    background-color:#27c38b;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.left-logo-people-five{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    background-color:#9369ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-logo-people-six{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    background-color:#f7916c; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.left-logo-people-seven{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    background-color:#5eb5e9; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.left-button{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    border-top: #dddddd 0.5px solid;
+}
+.button-emojiall{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+.right {
+    flex: 1;
+    width: 935px;
+}
+
+.right-top {
+    height: 45px;
+    background-color: beige;
+}
+
+.right-conter {
+    height: 810px;
+    background-color: silver;
+}
+
+.right-button {
+    height: 80px;
+    background-color: darkcyan;
+}
