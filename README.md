@@ -1,5 +1,8 @@
 # <center>**这是一个用来存放小组项目的仓库** </center>
 
+克隆仓库链接
+[克隆仓库](https://github.com/my737/GroupWorks.git "克隆仓库点这里")
+
 ### 仓库文件结构
 
 仓库结构主要分为两个部分
