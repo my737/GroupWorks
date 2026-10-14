@@ -1,0 +1,89 @@
+卷 新加卷 的文件夹 PATH 列表
+卷序列号为 B207-2121
+D:.
+|   README .md
+|   结构.txt
+|   
++---仿微信聊天界面
+|   |   index.html
+|   |   微信聊天界面预览图.png
+|   |   
+|   +---img
+|   |       更多.png
+|   |       
+|   \---index.css
+|           1212.css
+|           base.css
+|           container.css
+|           main.css
+|           right.css
+|           
++---公共管理后台
+|   |   index.html
+|   |   公共管理后台预览图.png
+|   |   
+|   +---css
+|   |       01.css
+|   |       1212.css
+|   |       555.css
+|   |       base.css
+|   |       reset.css
+|   |       
+|   \---images
+|           44233012e2222354922b67800862872a.png
+|           包裹.png
+|           屏幕截图 2026-10-13 144355.png
+|           屏幕截图 2026-10-13 144422.png
+|           折线图.png
+|           拼图.png
+|           效果图2.png
+|           簇状柱形图.png
+|           设置.png
+|           购物袋.png
+|           购物车.png
+|           面性购物袋.png
+|           
++---效果图
+|       0.png
+|       1.png
+|       2.png
+|       3.png
+|       
++---购物商城首页
+|   |   index.html
+|   |   购物商城预览图.png
+|   |   
+|   +---css
+|   |       footer.css
+|   |       goods.css
+|   |       header.css
+|   |       main.css
+|   |       nav.css
+|   |       product-news.css
+|   |       
+|   \---imgs
+|           list.png
+|           购物车.png
+|           
+\---音乐播放器
+    |   index.html
+    |   音乐播放器预览图.png
+    |   
+    +---css
+    |       common.css
+    |       player-left.css
+    |       player-right.css
+    |       reset.css
+    |       
+    \---images
+            上一曲.png
+            下一曲.png
+            信号.png
+            喇叭图标.png
+            头戴式耳机.png
+            开始播放.png
+            暂停按钮.png
+            爱心.png
+            空爱心.png
+            音乐.png
+            

@@ -6,8 +6,12 @@
 /* 左部分 */
 .admin-page__sidebar{
   width:200px;  
-  height:100%;
+  /* padding: 10px; */
+  /* height:100%; */
   background-color: #1e2536;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .sidebar{
     display: flex;
@@ -53,7 +57,7 @@
     padding-top: 15px;
 }
 .sidebar__menu{
-    margin: 5px auto;
+    margin: 10px;
     width:180px;
     height:30px;
     background-color: #645ff1;
@@ -74,7 +78,7 @@
 .sidebar__menu-item{
     width:180px;
     height:30px;
-    margin: 5px auto;
+    margin: 10px;
     display: flex;
     align-items: center;
 }
@@ -106,14 +110,16 @@
 }
 /* 管理员 */
 .admin__welcome{
-    width:180px;
-    margin-top: 260px;
-    padding-left: 10px;
+    width:200px;
+    height: 70px;
+    /* margin-top: 260px; */
+    /* padding-left: 10px; */
     display: flex;
     align-items:center;
+    justify-content: center;
     gap:10px;
     border-top: 1px solid #2b3242;
-    padding-top:15px;
+    /* padding-top:15px; */
     /* border: 1px solid red; */
 }
 .admin__avatar{

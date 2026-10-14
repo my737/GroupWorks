@@ -1,0 +1,76 @@
+/* html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+} */
+.headers{
+    width: 100%;
+    height: 150px;
+    border: 2px solid red;
+}
+.header{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.header-text{
+    color: aliceblue;
+}
+.menu{
+    width:100%;
+    height: 80px;
+    border: 2px solid green;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper {
+    width: 73%;
+    margin: 10px auto;
+}
+.ii{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.ii img{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(231, 12, 12);
+    border-radius: 5px;
+
+}
+
+.menu-one input{
+    width: 600px;
+    height: 40px;
+    border: 1px solid blue;
+    margin-top: 4PX;
+}
+button{
+    width: 60px;
+    height: 40px;
+    background-color: chocolate;
+    text-align: center;
+    margin-left: 0px;
+}
+.first{
+    font-size: 13px;
+    color: gray;
+    margin-top: 5px;
+}
+.title-box{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    border: 3px solid pink;
+    margin-top: 10px;
+    display: flex;
+}
+.title-box img{
+    width: 40px;
+    height: 40px;
+}

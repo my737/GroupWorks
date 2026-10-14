@@ -1,0 +1,187 @@
+/* html,body {
+    width: 100%;
+    margin: 0px;
+} */
+
+.box {
+    display: flex;
+}
+
+.left {
+    width: 300px;
+    height: 935px;
+}
+
+.left-top{
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-logo{
+    display: flex;
+}
+.left-logo-people{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    margin-top: 5px;
+    background-image: linear-gradient(to right,#34aafd,#247ff9);   
+}
+.header{
+    flex-direction: column;
+}
+.float-right{
+    display: flex;
+    gap:20px;
+}
+.left-conter{
+    height: 800px;
+}
+/* 搜索框 */
+.one{
+    height: 50px;
+}
+.one input{
+    width: 280px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10PX;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(209, 201, 201);
+}
+.two{
+    height: 60px;
+    font-size: 15px;
+    background-color: aliceblue;
+    display: flex;
+}
+.left-logo-people-two{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    margin-top: 10px;
+    background-color:  #5768f5;   
+}
+.split{
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+}
+.color{
+    color: gray;
+    font-size: 14px;
+}
+.there{
+    height: 60px;
+    font-size: 15px;
+    display: flex;
+}
+.left-logo-people-there{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    margin-top: 5px;
+    background-color:#f87c95 ;   
+}
+.number{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+}
+.four{
+    height: 60px;
+    text-align: center;
+    display: flex;
+}
+.left-logo-people-four{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    margin-top: 5px;
+    background-color:#27c38b;    
+}
+.five{
+    height: 60px;
+    text-align: center;
+    display: flex;
+}
+.left-logo-people-five{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    margin-top: 5px;
+    background-color:#9369ed;
+}
+.six{
+    height: 60px;
+    text-align: center;
+    display: flex;
+}
+.left-logo-people-six{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    margin-top: 5px;
+    background-color:#f7916c;   
+}
+.seven{
+    height: 60px;
+    text-align: center;
+    display: flex;
+}
+.left-logo-people-seven{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 10px; 
+    margin-top: 5px;
+    background-color:#5eb5e9;   
+}
+.left-button{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+.button-emojiall{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+.right {
+    flex: 1;
+    width: 900px;
+}
+
+.right-top {
+    height: 45px;
+    background-color: beige;
+}
+
+.right-conter {
+    height: 810px;
+    background-color: silver;
+}
+
+.right-button {
+    height: 80px;
+    background-color: darkcyan;
+}
